@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex">
+    <title>About | TGID Studio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css" />
+  </head>
+
+  <body data-theme="light">
+    <nav class="container-fluid">
+      <ul>
+        <li><strong>TGID Studio</strong></li>
+      </ul>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="mailto:hello@tgidstudio.com" role="button">Contact</a></li>
+      </ul>
+    </nav>
+
+    <main class="container">
+      <div class="grid">
+        <section>
+          <figure>
+            <img src="images/intro.png" alt="Samantha, founder of TGID Studio" style="border-radius: 10px;" />
+          </figure>
+
+          <hgroup>
+            <h2>Hi, I’m Samantha</h2>
+            <h3>Founder, creator, and real human behind TGID Studio</h3>
+          </hgroup>
+
+          <p>
+            TGID stands for <strong>The Good I’ll Do</strong> — and that phrase isn’t just a business name.
+            It’s how I try to show up in every part of life: as a mom, spouse, coach, sister, friend, and creator.
+          </p>
+
+          <h3>Why I Do This Work</h3>
+          <p>
+            I started TGID Studio because I wanted to use branding and design to help real people — not just polished corporations.
+            I work with clients who care about their mission, their voice, and their impact.
+            People who aren’t chasing perfection — but do want to show up clearly and intentionally.
+          </p>
+
+          <h3>What It’s Like to Work With Me</h3>
+          <p>
+            I bring the same energy to client projects that I bring to everything else I care about:
+            thoughtful, honest, and obsessed with the details.
+            I care about your brand like it’s my own — because if I’m helping shape how you show up in the world, it matters.
+          </p>
+        </section>
+
+        <!-- ✅ Form now lives properly inside main.grid -->
+        <form name="contact" method="POST" data-netlify="true" action="/thank-you.html" class="grid">
+          <input type="hidden" name="form-name" value="contact" />
+
+          <input type="text" name="name" placeholder="Your name" aria-label="Your name" required />
+          <input type="email" name="email" placeholder="Email address" aria-label="Email address" required />
+
+          <button type="submit" class="reach-out-btn">Reach Out</button>
+        </form>
+      </div>
+    </main>
+  </body>
+</html>
