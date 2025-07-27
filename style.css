@@ -437,3 +437,8 @@ form button:hover {
 .reach-out-btn:hover {
   background-color: #a14f34;
 }
+.services-section li {
+  padding-left: 0.25rem;
+  margin-left: 1.25rem;
+  list-style-position: inside;
+}
