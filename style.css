@@ -50,6 +50,23 @@ nav.container-fluid a[role="button"]:hover {
   background-color: #3b4a38;
   color: #fffefc;
 }
+nav ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+nav ul li {
+  list-style-type: none;
+}
+
+nav ul li::marker {
+  display: none;
+  content: '';
+}
+
 
 /* === HERO SECTION === */
 .hero-section {
@@ -552,7 +569,7 @@ form textarea:focus {
   animation: fadeInWord 0.4s forwards;
 }
 
-.footer-quote span.word:nth-child(2) { animation-delay: 0.2s; }
+.footer-quote span.word:nth-child(2) { animation-delay: 0.1s; }
 .footer-quote span.word:nth-child(3) { animation-delay: 0.2s; }
 .footer-quote span.word:nth-child(4) { animation-delay: 0.3s; }
 .footer-quote span.word:nth-child(5) { animation-delay: 0.4s; }
