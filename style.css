@@ -320,7 +320,7 @@ nav.container-fluid a[role="button"]:hover {
 }
 
 .add-on-banner h4 {
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.5rem; 
   color: #3b4a38;
   font-size: 1.6rem;
 }
