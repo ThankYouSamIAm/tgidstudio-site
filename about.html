@@ -17,60 +17,59 @@
       <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="services.html">Services</a></li>
-        <li><a href="about.html">About</a></li>
+        
+        <li><a href="social-media-marketing.html">Social Media Marketing</a></li>
         <li><a href="mailto:hello@tgidstudio.com" role="button">Contact</a></li>
       </ul>
     </nav>
 
-    <main class="container">
-      <div class="grid">
-        <section>
-          <figure>
-            <img src="images/intro.png" alt="Samantha, founder of TGID Studio" style="border-radius: 10px;" />
-          </figure>
+    <main class="container about-page">
+      <section class="about-content" style="text-align: center;">
+        <figure style="margin-bottom: 2rem;">
+        <img src="images/intro.png" alt="Samantha, founder of TGID Studio" style="max-width: 480px; width: 100%; border-radius: 10px;" />
+        </figure>
 
-          <hgroup>
-            <h2>Hi, I’m Samantha</h2>
-            <h3>Founder, creator, and real human behind TGID Studio</h3>
-          </hgroup>
+        <h2>Hi, I’m Samantha</h2>
+        <h3 style="font-weight: normal; color: #5b5b5b; margin-top: 0.5rem;">
+          Founder, creator, and real human behind TGID Studio
+        </h3>
 
-          <p>
-            TGID stands for <strong>The Good I’ll Do</strong> — and that phrase isn’t just a business name.
-            It’s how I try to show up in every part of life: as a mom, spouse, coach, sister, friend, and creator.
-          </p>
+        <p style="max-width: 640px; margin: 1.5rem auto;">
+          TGID stands for <strong>The Good I’ll Do</strong> — and that phrase isn’t just a business name.
+          It’s how I try to show up in every part of life: as a mom, spouse, coach, sister, friend, and creator.
+        </p>
 
-          <h3>Why I Do This Work</h3>
-          <p>
-            I started TGID Studio because I wanted to use branding and design to help real people — not just polished corporations.
-            I work with clients who care about their mission, their voice, and their impact.
-            People who aren’t chasing perfection — but do want to show up clearly and intentionally.
-          </p>
+        <h3>Why I Do This Work</h3>
+        <p style="max-width: 640px; margin: 1rem auto;">
+          I started TGID Studio because I wanted to use branding and design to help real people — not just polished corporations.
+          I work with clients who care about their mission, their voice, and their impact.
+          People who aren’t chasing perfection — but do want to show up clearly and intentionally.
+        </p>
 
-          <h3>What It’s Like to Work With Me</h3>
-          <p>
-            I bring the same energy to client projects that I bring to everything else I care about:
-            thoughtful, honest, and obsessed with the details.
-            I care about your brand like it’s my own — because if I’m helping shape how you show up in the world, it matters.
-          </p>
-        </section>
+        <h3>What It’s Like to Work With Me</h3>
+        <p style="max-width: 640px; margin: 1rem auto;">
+          I bring the same energy to client projects that I bring to everything else I care about:
+          thoughtful, honest, and obsessed with the details.
+          I care about your brand like it’s my own — because if I’m helping shape how you show up in the world, it matters.
+        </p>
+      </section>
 
-        <!-- ✅ Form now lives properly inside main.grid -->
-        <form name="contact" method="POST" data-netlify="true" action="/thankyou.html" class="grid">
+      <!-- ✅ FORM NOW BELOW TEXT, CENTERED -->
+      <section class="about-form" style="max-width: 500px; margin: 3rem auto 0 auto; text-align: center;">
+        <form name="contact" method="POST" data-netlify="true" action="/thankyou.html">
           <input type="hidden" name="form-name" value="contact" />
-
           <input type="text" name="name" placeholder="Your name" aria-label="Your name" required />
           <input type="email" name="email" placeholder="Email address" aria-label="Email address" required />
-
           <button type="submit" class="reach-out-btn">Reach Out</button>
         </form>
-      </div>
+      </section>
     </main>
-    <footer class="container" style="text-align: center; margin-top: 4rem; padding-top: 2rem; padding-bottom: 2rem; border-top: 1px solid #ccc; font-size: 0.9rem; color: #666;">
-  <small>
-    © 2025 TGID Studio &nbsp;•&nbsp;
-    <a href="mailto:hello@tgidstudio.com" style="color: #666; text-decoration: underline;">Contact</a>
-  </small>
-</footer>
 
+    <footer class="container" style="text-align: center; margin-top: 4rem; padding-top: 2rem; padding-bottom: 2rem; border-top: 1px solid #ccc; font-size: 0.9rem; color: #666;">
+      <small>
+        © 2025 TGID Studio &nbsp;•&nbsp;
+        <a href="mailto:hello@tgidstudio.com" style="color: #666; text-decoration: underline;">Contact</a>
+      </small>
+    </footer>
   </body>
 </html>
